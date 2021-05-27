@@ -6,7 +6,7 @@ chrome.tabs.onUpdated.addListener(function
     (tabId, changeInfo, tab) {
     if (changeInfo.url) {
         if (tab.url.split("#")[1] == "success" && tab.title == "Launch Meeting - Zoom") {
-                chrome.tabs.remove(tab.id, function () { });
+                setTimeout(function(){chrome.tabs.remove(tab.id, function () { });},2000) 
         }
     }
     //alert(document.getElementsByTagName("body")[0].innerText) 
