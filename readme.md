@@ -19,3 +19,8 @@ In Chrome:
 - Click on "Load Unpacked"
 - Then select the extracted folder
 - Done!
+
+If you use zoom for the first time:
+- Check the checkbox in the dialog 
+- Click "Open Zoom Meetings"
+- Done! Now, the browser will automatically open zoom.
